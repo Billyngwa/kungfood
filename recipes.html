@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>African recipes</title>
+  <link rel="stylesheet" href="./CSS/recipes.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>African recipes</h1>
+    <nav>
+      <ul>
+        <li><a href="Kungfood.html">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Welcome !</h2>
+    <p>Discover the best African meals and their recipes.</p>
+  </section>
+<input type="text" id="searchInput" placeholder="Find a recipe..." />
+<button onclick="searchRecipe()">Research</button>
+
+<div id="recipesContainer">
+  <!-- The recipes will be here (or the dynamics) -->
+</div>
+    
+  <section id="recipes">
+    <h2>Our recipes</h2>
+    
+    <article>
+      <h3>Ndole (Cameroon)</h3>
+      <img src="https://www.google.com/imgres?q=le%20ndole&imgurl=https%3A%2F%2Fwww.scrmaya.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fndole.jpg&imgrefurl=
+      https%3A%2F%2Fwww.scrmaya.com%2Frecettes-du-mois%2Fndole-camerounais-2%2F&docid=A-4wD_llU_OYdM&tbnid=Ex0V9iBoTWhq6M&vet=
+      12ahUKEwiiuPuMqfiOAxUIRUEAHcE1HRgQM3oECB4QAA..i&w=612&h=344&hcb=2&ved=2ahUKEwiiuPuMqfiOAxUIRUEAHcE1HRgQM3oECB4QAA" alt="Ndole">
+      <p>Ingredients : Ndole leaves , meat, crayfish, groundnuts, some oil...</p>
+      <p>Preparation : `1. Wash the ndole leaves and boil them. 
+ 
+ 3. Cook the groundnut paste and add to some boiled water.
+ 4. Next,add the onions,garlics and crayfish in the oil.
+ 5. Finally,mix everything in a cooking pot and let it boil till finished.`</p>
+    </article>
+
+    <article>
+      <h3>Thieboudienne (Senegal)</h3>
+      <img src="thieb.jpg" alt="Thieboudienne" width="300">
+      <p>Ingredients : riz, poisson, légumes, tomate...</p>
+      <p>Preparation :`1. First, add the onions, garlic and tomatoes.
+ 2. Add the vegetables(carots,cabbages,eggplant...etc)and some water.
+ 3. Next, add the fried and seasonned fish.
+ 4. Then, remove the vegetables and cook the rice in the remaining soup.
+ 5. Finaly, serve hot with the fish and vegetables.`</p>
+    </article>
+
+    <article>
+      <h3>Bobotie (South africa)</h3>
+      <img src="bobotie.jpg" alt="Bobotie" width="300">
+      <p>Ingredients : Minced meat, bread, milk, eggs, spices...</p>
+      <p>Preparation : `1. First, put the onions and garlics in a frying pan.
+ 2. Secondly, add the minced meat and cook until a golden color is reached.
+ 3. Next, add the spices(curry, turmeric, etc...) and the bread sinked in the milk.
+ 4. Stir the egg with some milk and pour the mixtire in a recipient.
+ 5. Heat in the microwave or oven until the top gets a golden color.`</p>
+    </article>
+
+    <article>
+      <h3>Piri Piri Chicken (Mozambique)</h3>
+      <img src="piri-piri.jpg" alt="Piri Piri Chicken" width="300">
+      <p>Ingredients : poulet, piments, ail, citron, épices...</p>
+      <p>Preparation : `1. Mix the peppers, garlics, lemon and spices to season the chicken.
+ 2. season the chicken and let it  rest for some hours.
+ 3. Next, grill the chicken on a barbecue or in an oven until its well cooked.
+ 4. Finally, serve in a piri piri soup appart.`</p>
+    </article>
+    <article>
+      <h3>Injera with Doro Wat (Ethiopia)</h3>
+      <img src="injera.jpg" alt="Injera with Doro Wat" width="300">
+      <p>Ingredients : injera (bread), chicken, onions, spices...</p>
+      <p>Preparation : `1. Prepare the injera by mélangeant la farine de teff avec de l’eau et en laissant fermenter.
+ 2. Cuire le poulet avec les oignons, l’ail, le gingembre et les épices (berbere).
+ 3. Servir le doro wat sur l’injera, en utilisant le pain pour manger.
+ 4. Accompagner de légumes ou d’autres plats éthiopiens.`</p>    
+    </article>
+
+    <article>
+      <h3>Jollof Rice (South africa)</h3>
+      <img src="jollof.jpg" alt="Jollof Rice" width="300">
+      <p>Ingredients : riz, tomates, oignons, poivrons, épices...</p>
+      <p>Preparation : `1. Faire revenir les oignons et les tomates dans une grande casserole.
+  2. Ajouter le riz et les épices (thym, laurier, piment).
+  3. Ajouter de l'eau et laisser mijoter jusqu'à ce que le riz soit cuit.
+  4. Servir chaud, souvent accompagné de poulet ou de poisson.`</p>
+    </article>
+    
+    <article>
+      <h3>Bunny Chow (south africa)</h3>
+      <img src="bunny-chow.jpg" alt="Bunny Chow" width="300">
+      <p>Ingredients : pain, curry de viande ou de légumes...</p>
+      <p>Preparation : `1. Creuser un pain pour en faire un bol.
+  2. Préparer un curry épicé avec de la viande ou des légumes.
+  3. Remplir le pain creusé avec le curry.
+  4. Servir avec des morceaux de pain à côté pour tremper dans le curry.`</p>
+    </article>
+
+    <article>
+      <h3>Maafe (Mali)</h3>
+      <img src="maafe.jpg" alt="Maafe" width="300">
+      <p>Ingredients : viande, pâte d'arachide, légumes...</p>
+      <p>Préparation : `1. Faire revenir la viande avec des oignons et de l'ail.
+  2. Ajouter la pâte d'arachide diluée dans de l'eau.
+  3. Ajouter des légumes (carottes, patates douces) et laisser mijoter.
+  4. Servir avec du riz ou du fonio.`</p>
+    </article>
+
+    <article>
+      <h3>Fufu (Ghana)</h3>
+      <img src="fufu.jpg" alt="Fufu" width="300">
+      <p>Ingredients : igname ou manioc, eau...</p>
+      <p>Preparation : `1. Cuire l'igname ou le manioc jusqu'à ce qu'il soit tendre.
+  2. Écraser ou piler jusqu'à obtenir une pâte lisse.
+  3. Ajouter de l'eau pour obtenir la consistance désirée.
+  4. Servir avec une soupe ou un ragoût épicé.`</p>
+    </article>
+
+    <article>
+      <h3>Chakalaka (South africa)</h3>
+      <img src="chakalaka.jpg" alt="Chakalaka" width="300">
+      <p>Ingredients : légumes, haricots, épices...</p>
+      <p>Preparation : `1. Faire revenir les oignons, carottes et poivrons dans une poêle.
+  2. Ajouter des haricots et des tomates en dés.
+  3. Assaisonner avec des épices (curry, piment) et laisser mijoter.
+  4. Servir chaud en accompagnement de viandes ou de pains.`</p>
+    </article>
+
+    <article>
+      <h3>Suya (Nigeria)</h3>
+      <img src="suya.jpg" alt="Suya" width="300">
+      <p>Ingredients : viande, épices suya, oignons...</p>
+      <p>Preparation : `1. Couper la viande en fines tranches et les mariner avec les épices suya.
+  2. Enfiler les morceaux de viande sur des brochettes.
+  3. Griller les brochettes sur un barbecue ou une poêle.
+  4. Servir avec des oignons et des tomates en tranches.`</p>
+    </article>
+
+    <article>
+      <h3>Chikwangue (Democratic republic of congo)</h3>
+      <img src="chikwangue.jpg" alt="Chikwangue" width="300">
+      <p>Ingredients : manioc, eau...</p>
+      <p>Preparation : `1. Peler et râper le manioc.
+  2. Envelopper la pâte de manioc dans des feuilles de bananier.
+  3. Cuire à la vapeur pendant plusieurs heures.
+  4. Servir avec des sauces ou des ragoûts.`</p>
+    </article>
+
+    <article>
+      <h3>Akara (Nigeria)</h3>
+      <img src="akara.jpg" alt="Akara" width="300">
+      <p>Ingredients : haricots, oignons, piment...</p>
+      <p>Preparation : `1. Tremper les haricots et enlever la peau.
+  2. Mixer les haricots avec des oignons et du piment.
+  3. Former des boules et les frire dans de l'huile chaude.
+  4. Servir chaud comme en-cas ou petit-déjeuner.`</p>
+    </article>
+
+    <article>
+      <h3>Gari Fortor (Nigeria)</h3>
+      <img src="gari-fortor.jpg" alt="Gari Fortor" width="300">
+      <p>Ingredients : gari, poisson fumé, légumes...</p>
+      <p>Preparation : `1. Faire revenir les oignons et les tomates dans une poêle.
+  2. Ajouter le gari et un peu d'eau pour l'hydrater.
+  3. Ajouter le poisson fumé et les légumes coupés.
+  4. Mélanger et laisser cuire quelques minutes.
+  5. Servir chaud.`</p>
+    </article>  
+   
+    <article>
+      <h3>Koki (Cameroon)</h3>
+      <img src="koki.jpg" alt="Koki" width="300">
+      <p>Ingredients : haricots blancs (niébé), huile rouge, feuilles de bananier...</p>
+      <p>Preparation : `1. Écraser les haricots trempés pour obtenir une pâte lisse.
+  2. Ajouter l’huile rouge et le sel, bien mélanger.
+  3. Envelopper la pâte dans des feuilles de bananier.
+  4. Cuire à la vapeur pendant environ 1 heure.
+  5. Servir chaud, souvent avec du plantain ou du riz.`</p>
+    </article>
+    
+    <article>
+      <h3>DG chicken (Cameroon)</h3>
+      <img src="poulet-dg.jpg" alt="Dg chicken" width="300">
+      <p>Ingredients : poulet, plantains, légumes, ail, gingembre...</p>
+      <p>Preparation : `1. Frire les plantains et réserver.
+  2. Faire revenir le poulet avec de l'ail, du gingembre et des oignons.
+  3. Ajouter les légumes (carottes, poivrons) et laisser mijoter.
+  4. Incorporer les plantains frits et mélanger délicatement.
+  5. Servir chaud, souvent avec du riz.`</p>
+    </article>
+   
+    <article>
+      <h3>Achu and yellow soup (Cameroon)</h3>
+      <img src="achu.jpg" alt="Achu and yellow soup" width="300">
+      <p>Ingredients : taro, sauce jaune (huile, épices, kanwa), viande...</p>
+      <p>Preparation : `1. Cuire le taro jusqu'à ce qu'il soit tendre, puis piler pour obtenir une pâte lisse.
+  2. Préparer la sauce jaune en chauffant l'huile avec les épices et le kanwa.
+  3. Ajouter la viande cuite à la sauce et laisser mijoter.
+  4. Servir le taro pilé avec la sauce jaune et la viande.`</p>
+    </article>
+   
+    <article>
+      <h3>Fufu and soupou kandja (Cameroon)</h3>  
+      <img src="fufu-soupou.jpg" alt="Fufu et soupou kandja" width="300">
+      <p>Ingrédients : manioc, gombo, poisson fumé, viande...</p>
+      <p>Préparation : `1. Piler le manioc pour obtenir une pâte lisse.
+  2. Préparer la soupou kandja en faisant revenir le gombo avec de l'oignon et de l'ail.
+  3. Ajouter le poisson fumé et la viande, puis laisser mijoter.
+  4. Servir le fufu avec la soupou kandja chaude.`</p>
+    </article>
+   
+    <article>
+      <h3>Mbongo Tchobi (Cameroun)</h3>
+      <img src="mbongo-tchobi.jpg" alt="Mbongo Tchobi" width="300">
+      <p>Ingrédients : poisson, épices mbongo, légumes...</p>
+      <p>Préparation : `1. Préparer les épices mbongo en mélangeant les ingrédients nécessaires.
+  2. Season the fish with the spices.
+  3. Faire revenir les légumes (oignons, tomates) dans une poêle. 
+  4. Add the season fish and cook until it becomes soft.
+  5. Serve hot, commonly with rice or plantain.`</p>                                               
+    </article>
+   
+    <article>
+      <h3>Fufu et Eru (Cameroon)</h3>
+      <img src="eru.jpg" alt="Fufu et Eru" width="300">
+      <p>Ingredients : fufu (Cassava), Eru leaves, meat, smoked fish, palm oil...</p>
+      <p>Preparation : `1. Boil the fufu from the cassava inorder to obtain a soft paste.
+  2. boil the eru leaves and season it.
+  3. Add the smoked meat and fish and let it simmer.
+  4. Add some palm oil and stir well.    
+  5. Serve hot and eat,Enjoy your meal.`</p>
+    </article>
+    
+    <article>
+      <h3>Fried Plantains (East african side)</h3>
+      <img src="fried-plantains.jpg" alt="Fried Plantains" width="300">
+      <p>Ingredients : plantains, huile...</p>
+      <p>Preparation : `1. Chop the plantains in round like shapes.
+  2. Heat the oil in a frying pan dans.
+  3. Fry the roundly cut off plantains until they get a fried golden color on the 2 sides.
+  4. put on drop by drop on an absorbing piece of paper and serve hot.`</p>
+    </article>
+
+    <!-- you can add other recipes here! -->
+  </section>
+
+    <script src="script.js"></script>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Our Email Addresses : <a href="mailto: ngongangteddy@gmail.com"> ngongangteddy@gmail.com</a>
+        <a href="mailto: yohannrichardbellebebey@gmail.com"> ,yohannrichardbellebebey@gmail.com</a>
+        <a href="mailto: yangoops1@gmail.com"> ,yangoops1@gmail.com</a>
+        <a href="mailto: urgurlalexandra@gmail.com"> ,urgurlalexandra@gmail.com</a>
+        <a href="mailto: Ngomalexandra1@gmail.com"> ,Ngomalexandra1@gmail.com </a>
+    </p>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Recettes Africaines - Tous droits réservés</p>
+  </footer>
+<!-- Champ de recherche et bouton déjà présents plus haut, suppression de ce doublon -->
+
+<!-- Tout en bas, AVANT </body> -->
+<script src="script.js"></script>
+  <script>
+    function searchRecipe() {
+      const searchInput = document.getElementById("searchInput").value.toLowerCase();
+      const recipesContainer = document.getElementById("recipesContainer");
+      recipesContainer.innerHTML = ""; // Clear previous results
+
+      const recipes = [
+        { name: "Ndole", description: "A cameroonian dish made up of ndole leaves, meat and crayfish." },
+        { name: "Thieboudienne", description: "Senegal's national dish,with rice,vegetables and fish." },
+        { name: "Bobotie", description: "A south african dish made up of minced meat and egg with some spices." },
+        { name: "Piri Piri Chicken", description: "A grilled chicken with a spicy south african soup." },
+        { name: "Injera with Doro Wat", description: "An ethiopian bread served with a spicy chicken sauce." },
+        { name: "Jollof Rice", description: "A spicy rice dish very popular in west africa." },
+        { name: "Bunny Chow", description: "Un plat sud-africain de pain creusé rempli de curry." },
+        { name: "Maafe", description: "Un ragoût malien à base de viande et de pâte d'arachide." },
+        { name: "Fufu", description: "Une pâte à base de manioc ou d'igname, servie avec des soupes." },
+        { name: "Chakalaka", description: "Un accompagnement sud-africain épicé à base de légumes." },
+        { name: "Suya", description: "Brochettes de viande épicées grillées, populaires au Nigeria." },
+        { name: "Chikwangue", description: "Un plat congolais à base de manioc cuit à la vapeur." },
+        { name: "Akara", description: "Beignets de haricots frits, souvent consommés au Nigeria." },
+        { name: "Gari Fortor", description: "Un plat nigérian à base de gari et de poisson fumé." },
+        { name: "Koki", description: "Un plat camerounais à base de haricots blancs et d'huile rouge." },
+        { name: "Poulet DG", description: "Un plat camerounais de poulet avec des plantains et des légumes." },
+        { name: "Achu and yellow soup", description: "Un plat camerounais de taro avec une sauce épicée." },
+        { name: "Fufu and soupou kandja", description: "Fufu servi avec une soupe de gombo épicée." },
+        { name: "Mbongo Tchobi", description: "Un ragoût camerounais de poisson épicé." },
+        { name: "Water fufu and Eru", description: "Fufu servi avec un ragoût de feuilles d'eru." },
+        { name: "Fried Plantains", description: "Plantains frits, un accompagnement populaire en Afrique de l'Ouest." }
+        // Add other recipes here
+      ];
+
+      const filteredRecipes = recipes.filter(recipe => recipe.name.toLowerCase().includes(searchInput));
+
+      if (filteredRecipes.length > 0) {
+        filteredRecipes.forEach(recipe => {
+          const recipeDiv = document.createElement("div");
+          
+          recipesContainer.appendChild(recipeDiv);
+        });
+      } else {
+        recipesContainer.innerHTML = "<p>No recipe founded.</p>";
+      }
+    }
+  </script>
+</body>
+</html>  
