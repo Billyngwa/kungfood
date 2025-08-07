@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, hsl(32, 100%, 67%), #ed3f65); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Panel */
+.left-panel {
+  flex: 1;
+  background: linear-gradient(135deg, hsl(32, 100%, 67%), #ed3f65);
+  color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-panel h1 {
+  font-size: 2.5em;
+}
+
+.left-panel p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Right Panel */
+.right-panel {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h3 {
+  font-size: 1.5em;
+}
+
+.highlight {
+  color: orange;
+  font-weight: bold;
+}
+
+.right-panel form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.right-panel input[type="email"],
+.right-panel input[type="password"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+.right-panel input:focus {
+  border-bottom-color: #a259ff;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background: linear-gradient(135deg, hsl(32, 100%, 67%), #ed3f65);
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create {
+  margin-top: 20px;
+  color: #888;
+  text-align: center;
+  cursor: pointer;
+}
